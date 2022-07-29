@@ -14,3 +14,16 @@
 #  "Number of digits in the string is: 4"
 
 p "Enter a sentence:"
+
+sentence = gets.chomp
+
+n_digits = sentence.count("123456789")
+p n_digits
+n_letters = sentence.count("abcdefghijklmnopqrstuvwxyz")
+p n_letters
+
+n_spaces = sentence.count(" ")
+
+puts "Number of letters in the string is: #{n_letters}"
+puts  "Number of spaces in the string is: #{n_spaces}"
+puts  "Number of digits in the string is: #{n_digits}"
