@@ -7,3 +7,11 @@
 # Hint: Use the `rand` method for the dice roll.
 
 p "Enter a guess:"
+guess = gets.chomp.to_i
+dice = rand(1..6)
+puts " i rolled ze dice and ze dice rolled a #{dice}"
+
+if guess == dice
+    puts 'You guess right amigo'
+else puts 'Yr luck ran out playa'
+end
