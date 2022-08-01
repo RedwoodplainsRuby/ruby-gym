@@ -9,3 +9,10 @@
 # If no name is given, the result should be "One for you, one for me."
 
 p "Enter a name:"
+
+fer = gets.chomp
+
+if fer == ""
+    puts "One for you, one for me."
+else puts "One for #{fer}, one for me"
+end

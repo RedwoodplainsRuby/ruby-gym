@@ -20,3 +20,20 @@
 #   String.isogram?("eleven") # => false
 #   String.isogram?("subdermatoglyphic") # => true
 
+
+
+Class String
+end
+
+Class String 
+ attr_accessor :isogram?
+
+def word
+    return self.isogram? 
+end
+
+
+word1 = String.new
+string.isogram? = eleven
+
+
