@@ -31,10 +31,21 @@
 
 # Example
 
-#   g_dna = Dna.new
-#   g_dna.strand = "G"
-#   t_dna = Dna.new
-#   t_dna.strand = "T"
+class Dna
+attr_accessor :strand
 
-#   p g_dna.distance_between(t_dna) # => 1
+def distance_between(dna_strand)
+    
 
+   
+end
+
+end
+
+g_dna = Dna.new
+# g_dna is an instance of the dna class
+g_dna.strand = "G"
+t_dna = Dna.new
+t_dna.strand = "T"
+
+p g_dna.distance_between(t_dna) # => 1
