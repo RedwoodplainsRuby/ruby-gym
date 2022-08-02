@@ -32,60 +32,18 @@
 # Example
 
 class Dna
-    attr_accessor :strand
-  
-    def distanceBetween(self.y)
-      return self.strand == self.y
-    end
-  end
+attr_accessor :strand
 
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# class Dna
-# attr_accessor :strand
-
-# def distance_between(dna_strand)
+def distance_between(dna_strand)
    
-# end
+end
 
-# end
+end
 
-# g_dna = Dna.new
-# # g_dna is an instance of the dna class
-# g_dna.strand = "G"
-# t_dna = Dna.new
-# t_dna.strand = "T"
+g_dna = Dna.new
+# g_dna is an instance of the dna class
+g_dna.strand = "G"
+t_dna = Dna.new
+t_dna.strand = "T"
 
-# p g_dna.distance_between(t_dna) # => 1
+p g_dna.distance_between(t_dna) # => 1

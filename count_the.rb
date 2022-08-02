@@ -10,11 +10,9 @@ sentence = gets.chomp.split
 count = 0
 
 # counts instances of "the" over each array element
-sentence.each do |the_word|
+sentence.each {|the_word|
     if the_word == "the"
         count +=  1
-    end
-
-end
+    end}
 
 p count
